@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"bip-api/controllers"
+	"crypto-exercise-api-danny/controllers"
 	"github.com/gin-gonic/gin"
 )
 

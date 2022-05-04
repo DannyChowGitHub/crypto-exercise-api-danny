@@ -1,7 +1,7 @@
 package services
 
 import (
-	"bip-api/models"
+	"crypto-exercise-api-danny/models"
 	"encoding/hex"
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/txscript"

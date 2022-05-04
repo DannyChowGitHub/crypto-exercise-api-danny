@@ -50,7 +50,7 @@ The Code implemented in Typescript and checked quality by eslint.
 ## Are there any test cases coverage
 You can run below command to run test in the backend project(golang)
 ```
-  go test
+  go test ./test
 ```
 
 ## How to run

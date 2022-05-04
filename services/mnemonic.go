@@ -1,8 +1,8 @@
 package services
 
 import (
-	"bip-api/libs"
-	"bip-api/models"
+	"crypto-exercise-api-danny/libs"
+	"crypto-exercise-api-danny/models"
 	"encoding/hex"
 	"errors"
 	"github.com/btcsuite/btcd/chaincfg"

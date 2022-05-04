@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bip-api/libs"
-	"bip-api/middlewares"
-	"bip-api/routes"
+	"crypto-exercise-api-danny/libs"
+	"crypto-exercise-api-danny/middlewares"
+	"crypto-exercise-api-danny/routes"
 	"github.com/gin-gonic/gin"
 )
 

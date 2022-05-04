@@ -1,4 +1,4 @@
-module bip-api
+module crypto-exercise-api-danny
 
 go 1.18
 

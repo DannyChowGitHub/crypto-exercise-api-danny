@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"bip-api/consts"
-	"bip-api/models"
-	"bip-api/services"
+	"crypto-exercise-api-danny/consts"
+	"crypto-exercise-api-danny/models"
+	"crypto-exercise-api-danny/services"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
