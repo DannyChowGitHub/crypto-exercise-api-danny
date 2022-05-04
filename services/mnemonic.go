@@ -43,11 +43,12 @@ func (s *MnemonicService) GenMnemonic(args models.MnemonicBody) (res *models.Mne
 		Seed:    hex.EncodeToString(seed),
 		RootKey: masterKey.String(),
 	}
+
 	return res, err
 }
 
 func newEntropy(numOfWords int) ([]byte, error) {
-	if numOfWords < 12 && numOfWords%3 != 0 {
+	if numOfWords < 12 || numOfWords%3 != 0 {
 		return nil, ErrLengthOfWordsInvalid
 	}
 
