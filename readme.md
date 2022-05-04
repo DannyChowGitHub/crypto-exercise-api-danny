@@ -1,4 +1,6 @@
 # Danny Chow crypto.com interview
+[backend repo](https://github.com/DannyChowGitHub/crypto-exercise-api-danny)
+[frontend repo](https://github.com/DannyChowGitHub/crypto-exercise-web-danny)
 
 ## The libraries are used in this project
 ### Front End
@@ -50,3 +52,16 @@ You can run below command to run test in the backend project(golang)
 ```
   go test
 ```
+
+## How to run
+1. start the backend project
+```
+  go mod tidy && go run main.go
+```
+
+2. start the frontend project
+```
+  yarn && yarn start
+```
+
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
